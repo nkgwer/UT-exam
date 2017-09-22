@@ -9,7 +9,8 @@ num_dict = {"0": number_lists.zero, "1": number_lists.one, "2": number_lists.two
 for num in xin:
     for row in range(5):
         answer[row] += num_dict[num][row] + " "
-
+for row in range(5):
+    answer[row] = answer[row][:-1]
 f = open('out1.txt', 'w')
 for line in answer:
     f.write(line+"\n")
