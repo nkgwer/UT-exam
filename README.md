@@ -1,4 +1,4 @@
 UT-exam
 ===================
-Solving Entrance Exam of Tokyo University 
+Solving Entrance Exam of the University of Tokyo
 ----------
